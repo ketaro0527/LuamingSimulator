@@ -41,7 +41,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
-    <IntDir>$(Configuration).win32\</IntDir>
+    <IntDir>$(SolutionDir)$(Configuration).LuamingSimulator\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
